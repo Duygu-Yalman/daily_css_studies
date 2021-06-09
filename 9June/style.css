@@ -11,3 +11,12 @@ li{
 b{
     color: thistle;
 }
+#username{
+    background-color: rgba(255, 105, 180, 0.315);
+}
+#password{
+    background-color: rgba(105, 200, 255, 0.616);
+}
+#send{
+    background-color: rgb(85, 130, 0);
+}
