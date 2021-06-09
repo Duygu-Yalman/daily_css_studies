@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(180, 180, 221);
+}
+p{
+    color: rgb(205, 139, 214);
+}
+h1{color: violet;}
+li{
+    color: tomato;
+}
+b{
+    color: thistle;
+}
