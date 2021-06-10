@@ -100,3 +100,9 @@ border: 1px solid #aaa;
     color: slateblue;
     font-size: large;
 }
+p::first-letter{
+    font-size: 46px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: firebrick;
+}
