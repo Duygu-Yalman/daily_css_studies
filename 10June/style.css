@@ -106,3 +106,6 @@ p::first-letter{
     font-family: 'Times New Roman', Times, serif;
     color: firebrick;
 }
+p::selection{
+    background-color: greenyellow;
+}
