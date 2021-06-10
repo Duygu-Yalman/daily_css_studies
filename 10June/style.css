@@ -91,3 +91,12 @@ box-shadow: inset 0 1px 3px rgb(0, 0, 0);
 outline: 0;
 border: 1px solid #aaa;
 }
+.box{
+    background-color: sandybrown;
+}
+.box::after{
+    content: '0 123 456 78 90';
+    background-color: seashell;
+    color: slateblue;
+    font-size: large;
+}
