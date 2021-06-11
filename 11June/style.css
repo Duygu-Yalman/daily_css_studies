@@ -1,4 +1,14 @@
 h2{
     text-decoration: underline solid;
     color: deeppink;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+.example-checkbox{
+    display: block;
+    position: relative;
+    padding-left: 36px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
