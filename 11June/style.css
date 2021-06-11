@@ -49,3 +49,7 @@ h2{
     border: 2px solid lightpink;
     padding: 20px;
 }
+body{
+    background:rgba(76, 175, 80, 0.3)/* Green background with 30% opacity */
+
+}
