@@ -26,3 +26,10 @@ h2{
 .example-checkbox input:checked ~ .checkmark-checkbox {
     background-color: #c82fe7;
 }
+.checkmark-checkbox:after {
+    position: absolute;
+    display: none;
+}
+.example-checkbox input:checked ~ .checkmark-checkbox:after {
+    display: block;
+}
