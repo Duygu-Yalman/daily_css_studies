@@ -16,4 +16,5 @@ ul li a {
 }
 ul li a.active {
     background-color: #e4c61c;
+    border-left:5px solid #f27a34;
 }
