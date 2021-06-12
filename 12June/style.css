@@ -1,3 +1,7 @@
+body{
+    margin-top: 10px;
+    margin-left: 10px;
+}
 ul {
     padding: 0;
     margin: 0;
@@ -13,13 +17,20 @@ ul li a {
     color: #fff;
     font-size: 18px;
     border-left:5px solid gray;
+    border-bottom: 2px solid #888;
 }
 ul li a.active {
     background-color:rgb(192, 168, 168);
     border-left:5px solid #8b766988;
 }
-
 ul li a:hover:not(.active) {
 background-color: rgb(192, 168, 168);
 border-left: 5px solid #8b766988;
 }
+ul li:hover ul{
+    display: block;
+}
+ul li ul{
+    display: none;
+}
+
