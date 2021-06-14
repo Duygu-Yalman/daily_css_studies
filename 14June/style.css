@@ -25,3 +25,7 @@ ul li a.active {
 ul li.menu-right{
     float:right;
 }
+ul li:hover:not(.active) {
+    background-color: rgb(192, 168, 168);
+    border-bottom:5px solid #2e1b3d83;
+}
