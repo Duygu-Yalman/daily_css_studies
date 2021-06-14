@@ -34,6 +34,18 @@ ul li:hover:not(.active) {
     border-bottom:5px solid #2e1b3d83;
 }
 .fa-instagram-square{
-    background: #c998d3;
+    background: #f783ac;
+    color: white;
+}
+.fa-twitter-square{
+    background: #f783ac;
+    color: white;
+}
+.fa-facebook-square{
+    background: #f783ac;
+    color: white;
+}
+.fa-linkedin{
+    background: #f783ac;
     color: white;
 }
