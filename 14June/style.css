@@ -5,3 +5,20 @@ ul{
     background-color: gray;
     overflow: auto;
 }
+ul li {
+    float:left;
+    border-bottom:2px solid #888;
+}
+ul li a {
+    padding: 12px;
+    display: block;
+    text-decoration: none;
+    background-color:gray;
+    color: #fff;
+    font-size: 18px;
+    border-left:5px solid gray;
+}
+ul li a.active {
+    background-color:rgb(192, 168, 168);
+    border-left:5px solid #8b766988;
+}
