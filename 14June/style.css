@@ -53,16 +53,6 @@ ul li:hover:not(.active) {
 .fa-facebook-square{
     background: #f783ac;
     color: white;
-} 
-.dropdown-content{
-    position: absolute;
-    min-width: 145px;
-    z-index: 1;
-}
-.dropdown-content a {
-    padding: 12px 16px;
-    display: block;
-    font-size: 18px;
 }
 li a:hover{
     background: rgb(248,140,0);
