@@ -24,3 +24,17 @@ input:invalid{
     float: left;
     background-color: rgb(160, 95, 154);
     }
+    .breadcrumb li a:after {
+        content: " ";
+        display: block;
+        width: 0;
+        height: 0;
+        border-top: 50px solid transparent;
+        border-bottom: 50px solid transparent;
+        border-left: 30px solid rgb(160, 95, 154);
+        position: absolute;
+        top: 50%;
+        margin-top: -50px;
+        left: 100%;
+        z-index: 2;
+        }
