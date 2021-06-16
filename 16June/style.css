@@ -1,3 +1,6 @@
 img[title]{
     border: 10px solid red;
 }
+img:not([title]){
+    border:10px solid lime;
+}
