@@ -4,3 +4,9 @@ img[title]{
 img:not([title]){
     border:10px solid lime;
 }
+input:valid{
+    border-color: green;
+}
+input:invalid{
+    border-color: red;
+}
