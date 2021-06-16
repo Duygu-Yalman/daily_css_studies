@@ -10,3 +10,9 @@ input:valid{
 input:invalid{
     border-color: red;
 }
+.breadcrumb {
+    list-style: none;
+    overflow: hidden;
+    font-size: 15px;
+    font-family: sans-serif;
+}
