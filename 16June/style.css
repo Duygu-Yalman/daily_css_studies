@@ -53,3 +53,6 @@ input:invalid{
             left: 100%;
             z-index: 1;
         }
+        .breadcrumb li:first-child a {
+            padding-left: 10px;
+        }
