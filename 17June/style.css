@@ -19,3 +19,13 @@ a{
             color:#868686;
             text-shadow: #4c4b4b -1px -1px,#fff 1px 1px;
             }
+            .slogan p{
+                padding:0;
+                margin:0;
+                text-align: right;
+                padding-right: 240px;
+                color:#ffffff;
+                font-size: 1.2em;
+                font-family: sans-serif;
+                font-style: italic;
+            }
