@@ -29,3 +29,24 @@ a{
                 font-family: sans-serif;
                 font-style: italic;
             }
+            .ust-menu ul li{
+                float: left;
+                border-left:#a8c5de solid 1px;
+                border-right:#92afc8 solid 1px;
+            }
+            .ust-menu ul li:first-child{
+                border-left:none;
+            }
+             
+            .ust-menu ul li:last-child{
+                border-right:none;
+            }
+            .ust-menu ul li a{
+                display: block;
+                height: 50px;
+                line-height: 50px;
+                padding:0 40px;
+                font-size: 1.2em;
+                font-family: sans-serif;
+                color:#fff;
+            }            
