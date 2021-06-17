@@ -1,7 +1,7 @@
 body{
     margin:0;
     padding:0;
-    background: url(https://images.unsplash.com/photo-1615806528302-05c722d51e0d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fHRleHRpbGV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60) repeat-x #e0e0df;
+    background: url(https://images.unsplash.com/photo-1536066601496-5fe3acf5d0ec?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80) repeat-x #e0e0df;
 }
 a{
     text-decoration: none;
@@ -50,3 +50,6 @@ a{
                 font-family: sans-serif;
                 color:#fff;
             }            
+            .ust-menu ul li a:hover{
+                background: #3368a4;
+                }
