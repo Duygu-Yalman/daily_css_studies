@@ -10,3 +10,12 @@ a{
         width: 980px;
         margin:auto;
         }
+        .siteadi a h1{
+            text-align: center;
+            margin:35px 0 0 0;
+            padding:0;
+            font-size:4em;
+            font-family: sans-serif;
+            color:#868686;
+            text-shadow: #4c4b4b -1px -1px,#fff 1px 1px;
+            }
