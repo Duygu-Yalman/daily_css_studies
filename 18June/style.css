@@ -39,6 +39,11 @@ main{
     background-color: white;
     margin: 30px;
     padding: 15px;
+    top: 20px;
+    right: 250px;
+    left: 200px;
+    position: relative;
+    z-index: 3;
 }
 .main>.box2{
     border: 2px solid #900;
@@ -49,6 +54,18 @@ main{
     margin: 30px;
     padding: 15px;
     position: absolute;
-    top: 92px;
-    left: 750px;
+    top: 530px;
+    left: 250px;
+    z-index: 2;
+}
+.main>.box3{
+    border: 2px solid #900;
+    width: 200px;
+    height: 200px;
+    float: left;
+    background-color: white;
+    margin: 30px;
+    padding: 15px;
+    position: relative;
+    z-index: 1;
 }
