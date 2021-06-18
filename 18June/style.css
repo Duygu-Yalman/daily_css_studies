@@ -12,11 +12,11 @@ text-align: center;
 }
 .special-table tr{
     vertical-align: middle;
-    border-bottom:2px solid #ddd;
+  border: 2px solid #ddd;
 }
-.special-table tr:hover{
+/*.special-table tr:hover{
     background-color: #ECECEC;
-}
+}*/
 .special-table thead th{
     background-color: darkred;
     color: white;
