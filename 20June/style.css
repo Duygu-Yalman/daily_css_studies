@@ -2,3 +2,15 @@
     font-variant: small-caps;
     text-align: center;
 }
+ul{
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #414744 ;
+}
+li{
+    float: left;
+    color: white;
+    padding: 16px 16px;
+    display: block;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
