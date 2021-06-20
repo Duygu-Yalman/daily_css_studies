@@ -7,9 +7,13 @@ ul{
     padding: 0;
     overflow: hidden;
     background-color: #414744 ;
+    position: fixed;
+    top:0;
+    width: 100%;
 }
 li{
     float: left;
+    border-left: 1px solid #555;
 }
 li a{
     color: white;
