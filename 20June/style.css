@@ -6,16 +6,14 @@ ul{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #414744 ;
-    position: fixed;
-    top:0;
+    background-color: #333;
     width: 100%;
 }
 li{
     float: left;
     border-left: 1px solid #555;
 }
-li a{
+li a, .dp-btn{
     color: white;
     padding: 16px 16px;
     display: block;
@@ -26,16 +24,29 @@ li a{
 a.active{
     background-color: darkred;
 }
-li a:hover:not(.active){
+li a:hover, .dropdown:hover .dp-btn{
     background-color: #111;
 }
 div{
     padding: 20px;
-    margin-top: 50px;
-
 }
+
 @media screen and (max-width:600px) {
     ul li{
         float: none;
     } 
+}
+.dp-content{
+    display: none;
+    position: absolute;
+    background-color: #333;
+    z-index: 1;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.7);
+    padding: 0;
+}
+.dropdown:hover .dp-content{
+    display: block;
+}
+.dp-content a:hover{
+    background-color: darkred;
 }
