@@ -32,4 +32,11 @@ li a:hover:not(.active){
 div{
     padding: 20px;
     margin-top: 50px;
+
+}
+@media screen and (max-width:600px) {
+    ul li{
+        float: none;
+    }
+    
 }
