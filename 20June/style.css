@@ -29,3 +29,7 @@ a.active{
 li a:hover:not(.active){
     background-color: #111;
 }
+div{
+    padding: 20px;
+    margin-top: 50px;
+}
