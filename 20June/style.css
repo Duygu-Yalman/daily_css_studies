@@ -59,3 +59,15 @@ body {
   ul li.menu-right{
     float:right; 
   }
+  .fa-instagram-square{
+    background: rgb(146, 94, 94);
+    color: white;
+}
+.fa-twitter-square{
+    background: rgb(146, 94, 94);
+    color: white;
+}
+.fa-facebook-square{
+    background: rgb(146, 94, 94);
+    color: white;
+}
