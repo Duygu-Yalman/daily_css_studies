@@ -64,3 +64,11 @@ font-weight: bold;
     border: 2px solid #ccc;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.8);
 }
+a[target]{
+    padding: 10px;
+    background-color: darkolivegreen;
+    color: white;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
