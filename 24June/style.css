@@ -15,6 +15,14 @@ input[type="text"],select{
     width: 100%;
     padding: 10px 0;
     margin: 10px 0;
-   display: block;
-   border: 2px solid #6C5B7B;
+    display: block;
+    border: 2px solid #6C5B7B;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+button[type="button"]{
+    width: 100%;
+    background-color: #C06C84;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
 }
