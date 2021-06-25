@@ -15,5 +15,6 @@ input[type="text"],select{
     width: 100%;
     padding: 10px 0;
     margin: 10px 0;
-   
+   display: block;
+   border: 2px solid #6C5B7B;
 }
