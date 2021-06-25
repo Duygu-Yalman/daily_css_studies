@@ -44,6 +44,7 @@ select{
     margin: 8px 0;
     border: none;
     border-radius: 3px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 textarea{
     width: 100%;
@@ -54,4 +55,11 @@ textarea{
     border: 1px solid #bbb;
     font-size: 15px;
     resize: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.frame{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    color: #355C7D;
+    text-decoration: underline;
 }
