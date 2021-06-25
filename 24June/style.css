@@ -4,3 +4,8 @@
     width: 50%;
     border-radius: 4px;
 }
+.label{
+    padding: 3px 3px;
+    color: #355C7D;
+    display: block;
+}
