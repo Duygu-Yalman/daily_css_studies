@@ -4,8 +4,16 @@
     width: 50%;
     border-radius: 4px;
 }
-.label{
+label{
     padding: 3px 3px;
     color: #355C7D;
     display: block;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+input[type="text"],select{
+    width: 100%;
+    padding: 10px 0;
+    margin: 10px 0;
+   
 }
