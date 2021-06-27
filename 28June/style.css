@@ -1,3 +1,14 @@
 body{
     margin: 0;
 }
+img{
+    opacity: 0.8;
+}
+.box{
+    background-color: #E3D5D6;
+    width: 95%;
+    height: 18px;
+    border: 2px solid black;
+    position: absolute;
+    margin-top: 640px;
+}
