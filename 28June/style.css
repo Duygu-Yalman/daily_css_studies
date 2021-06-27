@@ -12,8 +12,16 @@ img{
     height: 18px;
     border: 2px solid black;
     position: absolute;
-    margin-top: 640px;
+    margin-top: 665px;
     margin-left: 10px;
     padding: 15px;
     opacity: 0.5;
+}
+.cookie{
+    position:absolute;
+    font-size: 16px;
+    margin-top: 670px;
+    margin-left: 20px;
+    z-index: 2;
+    font-weight: bold;
 }
