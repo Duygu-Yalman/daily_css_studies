@@ -48,3 +48,8 @@
     background: #dfcbb7;
     border-radius: 2px;
 }
+.container .center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
