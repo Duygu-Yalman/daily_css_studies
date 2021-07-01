@@ -40,7 +40,10 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding: 6px 13 px;
 }
-.navbar ul li a.active,
+.navbar ul li a.active{
+    background: #dfcbb7;
+    border-radius: 2px;
+}
 .navbar ul li a.hover{
     background: #dfcbb7;
     border-radius: 2px;
