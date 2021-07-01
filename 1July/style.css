@@ -40,10 +40,7 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding: 6px 13 px;
 }
-.navbar ul li a.active{
-    background: #dfcbb7;
-    border-radius: 2px;
-}
+.navbar ul li a.active,
 .navbar ul li a.hover{
     background: #dfcbb7;
     border-radius: 2px;
@@ -77,8 +74,15 @@
     height: 50px;
     width: 150px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
     font-size: 18px;
     color: #9c6f42;
     background: rgb(194, 167, 140);
     cursor: pointer;
+    border-radius: 3px;
+    outline: none;
+}
+.buttons button:hover{
+    background: #dfcbb7;
+    transition: .5s;
 }
