@@ -25,7 +25,7 @@
     color: #362e2a;   
 }
 .navbar ul{
-    float: right;
+    float: left;
     margin-right: 20px;
 }
 .navbar ul li{
@@ -41,7 +41,7 @@
     padding: 6px 13 px;
 }
 .navbar ul li a.active,
-.navbar ul li a.hover{
+.navbar ul li a:hover{
     background: #dfcbb7;
     border-radius: 2px;
 }
@@ -86,3 +86,6 @@
     background: #dfcbb7;
     transition: .5s;
 }
+ul li.menu-right{
+    float:right; 
+  }
