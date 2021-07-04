@@ -10,12 +10,23 @@ body{
 #social{
     background-color: black;
     color: white;
-    height: 90px;
+    height: 80px;
     width: 100%;
     position: sticky;
     top: 0;
     z-index: 1;
     font-size: 18px;
-    text-align: center;
-    padding: 35px;
+    text-align: right;
+    padding: 10px;
+}
+h3{
+    float: left;
+    letter-spacing: 6px ;
+}
+span{
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+#social i{
+    margin-right: 15px;
 }
