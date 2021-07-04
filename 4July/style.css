@@ -7,3 +7,15 @@ body{
     background-color: #dbdbdb;
     font-family: 'Oxygen', sans-serif;
 }
+#social{
+    background-color: black;
+    color: white;
+    height: 90px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    font-size: 18px;
+    text-align: center;
+    padding: 35px;
+}
