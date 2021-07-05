@@ -97,4 +97,9 @@ nav li a{
     color: black;
     border-bottom: 1px solid #b4b4b4;
     padding-left: 20px;
+    display: block;
+}
+nav li a:hover{
+    color: white;
+    background-color: #adadad;
 }
