@@ -120,11 +120,16 @@ main{
     border-radius: 10px;
     box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .15);
     padding: 5px;
+    margin-bottom: 15px;
 }
 .jpg{
     width: 100%;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    transition:0.8s ;
+}
+.jpg:hover{
+    opacity: 0.6;
 }
 h5{
     margin: 10px;
@@ -146,4 +151,13 @@ h5{
 }
 .btnread:hover{
     opacity: 0.8;
+}
+footer{
+    width: 100%;
+    height: 75px;
+    background-color: black;
+    color: white;
+    line-height: 75px;
+    text-align: center;
+    box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .15);
 }
