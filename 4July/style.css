@@ -106,3 +106,9 @@ nav li a:hover{
 i{
     margin-right: 10px;
 }
+main{
+    float: left;
+    height: auto;
+    width: 80%;
+    padding: 10px;
+}
