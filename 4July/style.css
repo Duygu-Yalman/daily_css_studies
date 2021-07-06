@@ -205,6 +205,8 @@ h1{
     width: 100%;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
+    height: 121px;
+    width: 245px;
 }
 .reftitle{
     text-align: center;
