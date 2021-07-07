@@ -225,3 +225,11 @@ h1{
     transition: opacity 0.8s;
     cursor: pointer;
 }
+.galjpg{
+    width: 25%;
+    height: 200px;
+    border-radius: 8px;
+    opacity: 0.8;
+    box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .15);
+    margin: 10px;
+}
