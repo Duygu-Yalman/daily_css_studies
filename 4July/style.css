@@ -231,9 +231,13 @@ h1{
     border-radius: 8px;
     box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .15);
     margin: 10px;
+    object-fit: cover;
 }
 .galjpg:hover{
     opacity: 0.8;
     transition: opacity 0.7s;
     cursor: pointer;
+}
+.link:link{
+    text-decoration: none;
 }
