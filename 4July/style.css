@@ -132,7 +132,9 @@ main{
     opacity: 0.6;
 }
 h5{
+    font-size: 18px;
     margin: 10px;
+    font-weight: bolder;
 }
 .contenttext{
     margin: 10px;
@@ -282,14 +284,20 @@ label{
 input[type=text]{
     width: 100%;
     padding: 12px;
-    border: 1px solid #ccc;
+    border: 3px solid #ccc;
     border-radius: 4px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
 }
+input[type=text]:focus {
+    border: 3px solid #555;
+  }
 textarea{
     width: 100%;
     height: 140px;
     padding: 12px;
-    border: 1px solid #ccc;
+    border: 3px solid #ccc;
     border-radius: 4px;
     resize: none;
 }
