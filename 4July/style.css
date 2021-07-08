@@ -152,6 +152,7 @@ h5{
     text-align: center;
 }
 .btnread:hover{
+    transition: opacity 0.8s;
     opacity: 0.8;
 }
 footer{
