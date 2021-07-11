@@ -339,3 +339,11 @@ h2{
     margin: 10px;
     text-align: center;
 }
+.form-title{
+    display: flex;
+    text-align: left;
+    width: 100%;
+    font-size: 18px;
+    font-weight: bolder;
+    padding: 20px 30px;
+}
