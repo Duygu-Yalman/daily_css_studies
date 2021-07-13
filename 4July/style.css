@@ -343,3 +343,11 @@ h2{
     font-size: 18px;
     margin-left: 50px;
 }
+.hr-form{
+    height: auto;
+    margin: auto;
+    width: 98%;
+    margin-top: 10px;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
