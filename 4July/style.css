@@ -340,8 +340,10 @@ h2{
     text-align: center;
 }
 .form-title{
-    font-size: 18px;
+    font-size: 22px;
     margin-left: 50px;
+    cursor: pointer;
+
 }
 .hr-form{
     height: auto;
