@@ -360,3 +360,6 @@ h2{
     border-radius: 4px;
     resize: none;
 }
+link{
+    display: none;
+}
