@@ -3,3 +3,16 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    background-image: url(photo.jpg);
+    background-size: 100%;
+    font-family: sans-serif;
+}
+.menu-bar{
+    background: rgb(219, 219, 219);
+    text-align: center;
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+}
