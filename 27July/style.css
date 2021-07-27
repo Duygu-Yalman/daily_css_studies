@@ -6,7 +6,8 @@
 body{
     background-image: url(photo.jpg);
     background-size: 100%;
-    font-family: sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
 }
 .menu-bar{
     background: rgb(219, 219, 219);
@@ -15,4 +16,17 @@ body{
 .menu-bar ul{
     display: inline-flex;
     list-style: none;
+}
+.menu-bar ul li{
+    width: 150px;
+    margin: 15px;
+    padding: 15px;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: black;
+}
+.active, .menu-bar ul li:hover{
+    background:rgb(110, 101, 109) ;
+    border-radius: 10px;
 }
