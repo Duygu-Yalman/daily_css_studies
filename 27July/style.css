@@ -41,3 +41,11 @@ body{
     margin-left: -15px;
     font-size: 15px;
 }
+.menu-bar ul li:hover .sub-menu-1 ul{
+    display: block;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted rgb(194, 188, 193);
+}
