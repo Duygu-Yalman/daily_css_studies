@@ -27,6 +27,6 @@ body{
     color: black;
 }
 .active, .menu-bar ul li:hover{
-    background:rgb(110, 101, 109) ;
+    background:rgb(194, 188, 193) ;
     border-radius: 10px;
 }
