@@ -53,4 +53,7 @@ body{
     border-radius: 0;
     cursor: pointer;
 }
-
+.menu-bar ul li:hover .sub-menu-1 ul li:hover{
+    background:rgb(194, 188, 193) ;
+    border-radius: 10px;
+}
