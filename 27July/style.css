@@ -57,3 +57,8 @@ body{
     background:rgb(194, 188, 193) ;
     border-radius: 10px;
 }
+.fa-caret-right{
+    font-size: 14px;
+    color: black;
+    float: right;
+}
