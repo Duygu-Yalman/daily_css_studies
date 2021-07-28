@@ -30,3 +30,13 @@ body{
     background:rgb(194, 188, 193) ;
     border-radius: 10px;
 }
+.sub-menu-1{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background-color:rgb(219, 219, 219) ;
+    margin-top: 15px;
+    margin-left: -15px;
+}
