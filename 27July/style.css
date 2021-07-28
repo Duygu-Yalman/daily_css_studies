@@ -48,4 +48,8 @@ body{
     width: 150px;
     padding: 10px;
     border-bottom: 1px dotted rgb(194, 188, 193);
+    background: transparent;
+    text-align: left;
+    border-radius: 0;
+    cursor: pointer;
 }
