@@ -5,12 +5,9 @@
 body{
     background-color: #ffecf4;
 }
-.logo{
-    width: 165px;
-}
-hr{
-    height: 2px;
-    border-width:0;
-    color:gray;
-    background-color:gray;
+.menu-bar{
+    font-family: 'Oxygen', sans-serif;
+    font-size: 20px;
+    color: gray;
+    text-align: center;
 }
