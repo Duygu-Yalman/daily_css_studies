@@ -7,7 +7,7 @@ body{
 }
 .menu-bar{
     font-family: 'Oxygen', sans-serif;
-    font-size: 20px;
+    font-size: 22px;
     color: gray;
     text-align: center;
 }
@@ -18,4 +18,11 @@ h2{
 h3{
     font-family: 'Oxygen', sans-serif;
     color: hotpink;
+    font-size: 20px;
+    font-weight: bold;
+}
+p{
+    font-family: 'Oxygen', sans-serif;
+    color: rgb(13, 13, 13); 
+    font-size: 18px;
 }
