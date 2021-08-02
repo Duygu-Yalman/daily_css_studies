@@ -33,3 +33,7 @@ p{
     font-weight: bold;
     color:mediumslateblue;
 }
+#icon{
+    text-decoration: none;
+    margin-right: 6px;
+}
