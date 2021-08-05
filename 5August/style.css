@@ -12,3 +12,11 @@ img{
     margin: auto;
     overflow: hidden;
 }
+.post{
+    width: 47%;
+    background-color: #f1f1f1;
+    float: left;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px black;
+}
