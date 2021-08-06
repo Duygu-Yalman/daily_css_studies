@@ -29,3 +29,7 @@ body{
     box-sizing: border-box;
     border: none;
 }
+.txt{
+    margin: 20px 0;
+    border-radius: 6px;
+}
