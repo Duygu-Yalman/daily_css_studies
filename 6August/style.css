@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     background-color: #131034;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
 }
 .signup-form{
     width: 300px;
@@ -18,7 +18,7 @@ body{
 .signup-form h1{
     color: white;
     margin-top: 100px;
-    font-size: 30px;
+    font-size: 35px;
 }
 .signup-form input{
     display: block;
@@ -40,4 +40,13 @@ body{
     color: white;
     border-radius: 44px;
     cursor: pointer;
+    transition: 0.8s;
+    display: block;
+    font-weight: bolder;
+    font-size: 18px;
+}
+.signup-btn:hover{
+    transform: scale(0.96);
+    background:white;
+    color: #538fef;
 }
