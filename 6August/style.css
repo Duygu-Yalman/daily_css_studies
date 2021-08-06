@@ -26,4 +26,6 @@ body{
     padding: 0 16px;
     height: 44px;
     text-align: center;
+    box-sizing: border-box;
+    border: none;
 }
