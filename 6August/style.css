@@ -50,3 +50,9 @@ body{
     background:white;
     color: #538fef;
 }
+.signup-form a{
+    text-decoration: none;
+    color: white;
+   transition: 0.8s;
+   display: block;
+}
