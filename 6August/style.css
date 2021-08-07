@@ -53,6 +53,10 @@ body{
 .signup-form a{
     text-decoration: none;
     color: white;
+    font-size: 18px;
    transition: 0.8s;
    display: block;
+}
+.signup-form a:hover{
+    color:yellow;
 }
