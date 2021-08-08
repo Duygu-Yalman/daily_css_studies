@@ -21,7 +21,16 @@ body{
     text-align: center;
     margin-bottom: 30px;
     cursor: pointer;
+    transition: 0.5s;
+}
+.container .sidebar h2 span{
+    color: #EDF7F5;
+}
+.container .sidebar h2:hover{
+    color: #EDF7F5;
+    ;
 }
 .container .sidebar ul li a{
     color: #C06C84;
 }
+
