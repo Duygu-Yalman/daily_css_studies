@@ -5,3 +5,18 @@
     list-style: none;
     text-decoration: none;
 }
+body{
+    background: #355C7D;
+}
+.container .sidebar{
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    padding: 30px 0;
+    background: #F8B195;
+}
+.container .sidebar h2{
+    color: #6C5B7B;
+    text-transform: uppercase;
+    text-align: center;
+}
