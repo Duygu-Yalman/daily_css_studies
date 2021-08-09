@@ -37,6 +37,7 @@ body{
 .container .sidebar ul li{
     padding: 15px;
     border-bottom: 1px solid #8D9CF4;
+    transition: .5s;
 }
 .container .sidebar ul li:hover{
     background: #e5ebe9
