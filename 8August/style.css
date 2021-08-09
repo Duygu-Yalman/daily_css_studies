@@ -62,3 +62,8 @@ body{
     border-top-right-radius: 5px ;
     border-top-left-radius: 5px;
 }
+.container .sidebar .social-media a:hover{
+    background-color: #F0F4F3;
+    transition: .5s;
+    color: black;
+}
