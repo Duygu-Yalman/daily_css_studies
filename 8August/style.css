@@ -67,3 +67,11 @@ body{
     transition: .5s;
     color: black;
 }
+.container .main-content{
+    margin-left: 200px;
+}
+.container .main-content .header{
+    padding: 20px;
+    background: #fff;
+    color: #717171;
+}
