@@ -6,35 +6,39 @@
     text-decoration: none;
 }
 body{
-    background: #355C7D;
+    background: #C9DFF1;
 }
 .container .sidebar{
     position: fixed;
     width: 200px;
     height: 100%;
     padding: 30px 0;
-    background: #F8B195;
+    background: #F0F4F3;
 }
 .container .sidebar h2{
-    color: #6C5B7B;
+    color: #C1BBA8;
     text-transform: uppercase;
     text-align: center;
     margin-bottom: 30px;
     cursor: pointer;
-    transition: 0.5s;
+    transition: .5s;
 }
 .container .sidebar h2 span{
-    color: #EDF7F5;
+    color: #EFBFA8;
+    transition: .5s;
 }
 .container .sidebar h2:hover{
-    color: #EDF7F5;
+    color: #EFBFA8;
     ;
 }
 .container .sidebar ul li a{
-    color: #C06C84;
+    color: #997a6b;
 }
 .container .sidebar ul li{
     padding: 15px;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid #8D9CF4;
 }
-
+.container .sidebar ul li:hover{
+    background: #e5ebe9
+    ;
+}
