@@ -43,3 +43,10 @@ body{
     background: #e5ebe9
     ;
 }
+.container .sidebar .social-media{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+}
