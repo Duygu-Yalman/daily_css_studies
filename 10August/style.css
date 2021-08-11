@@ -35,4 +35,11 @@ a{
     opacity: .7;
     z-index: -1;
 }
+#hero h1{
+    display: block;
+    width: fit-content;
+    font-size: 4rem;
+    position: relative;
+    color: white;
+}
 /* End Hero Section */
