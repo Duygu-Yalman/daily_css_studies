@@ -18,3 +18,21 @@ a{
     align-items: center;
     justify-content: center;
 }
+/* Hero Section */
+#hero{
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+}
+#hero::after{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: .7;
+    z-index: -1;
+}
+/* End Hero Section */
