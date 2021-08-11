@@ -137,6 +137,16 @@ a{
     justify-content: center;
     flex-wrap: wrap;
 }
+#services .service-item{
+    flex-basis: 80%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 10px;
+    background-image: url();
+}
 /* End Services Section */
 
 
