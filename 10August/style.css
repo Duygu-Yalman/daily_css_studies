@@ -147,7 +147,20 @@ a{
     border-radius: 10px;
     background-image: url(img/work.jpg);
     background-size: cover;
+    position: relative;
     margin: 10px 5%;
+    z-index: 1;
+}
+#services .service-item::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: .8;
+    z-index: 1;
 }
 /* End Services Section */
 
