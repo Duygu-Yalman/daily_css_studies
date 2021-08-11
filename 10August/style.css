@@ -114,12 +114,22 @@ a{
 }
 #services .section-title{
     font-size: 4rem;
-    font-weight: 300;
+    font-weight: 300px;
     color: black;
     margin-bottom: 10px;
     text-transform: uppercase;
     letter-spacing: .2rem;
     text-align: center;
+}
+#services .section-title span{
+    color: crimson;
+}
+#services .service-top p{
+    font-size: 1.4rem;
+    margin-top: 5px;
+    line-height: 2.5rem;
+    font-weight: 300px;
+    letter-spacing: .05rem;
 }
 /* End Services Section */
 
