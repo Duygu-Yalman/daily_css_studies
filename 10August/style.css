@@ -100,6 +100,30 @@ a{
 }
 /* End Hero Section */
 
+
+/* Services Section */
+#services{
+
+}
+#services .services{
+    flex-direction: column;
+    text-align: center;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+#services .section-title{
+    font-size: 4rem;
+    font-weight: 300;
+    color: black;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    text-align: center;
+}
+/* End Services Section */
+
+
 /* Keyframes */
 @keyframes text_reveal_box{
     50% {
