@@ -131,6 +131,12 @@ a{
     font-weight: 300px;
     letter-spacing: .05rem;
 }
+#services .service-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 /* End Services Section */
 
 
