@@ -24,10 +24,12 @@ img{
     object-fit: cover;
 }
 p{
-    color: white;
-    text-align: left;
+    color: black;
     font-size: 1.4rem;
-    line-height: 1.9rem;
+    margin-top: 5px;
+    line-height: 2.5rem;
+    font-weight: 300px;
+    letter-spacing: .05rem;
 }
 /* Hero Section */
 #hero{
@@ -136,6 +138,7 @@ p{
     color: crimson;
 }
 #services .service-top p{
+    color: black;
     font-size: 1.4rem;
     margin-top: 5px;
     line-height: 2.5rem;
