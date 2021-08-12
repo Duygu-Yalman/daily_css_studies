@@ -150,6 +150,7 @@ p{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    margin-top: 50px;
 }
 #services .service-item{
     flex-basis: 80%;
@@ -164,6 +165,7 @@ p{
     position: relative;
     margin: 10px 5%;
     z-index: 1;
+    overflow: hidden;
 }
 #services .service-item::after{
     content: '';
