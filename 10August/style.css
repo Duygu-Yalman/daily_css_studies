@@ -262,6 +262,9 @@ p{
     background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
     opacity: .7;
 }
+#projects .project-item:hover .project-img img{
+    transform: scale(1.1);
+}
 /* End Project Section */
 
 /* Keyframes */
