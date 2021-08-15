@@ -326,7 +326,7 @@ p{
     margin: 0 auto;
 }
 #contact .contact-items{
-    width: 400%;
+    width: 100%;
 }
 #contact .contact-item{
     width: 80%;
@@ -340,6 +340,10 @@ p{
     align-items: center;
     box-shadow: 0px 0px 18px 0 #0000002c;
     flex-direction: column;
+    transition: .3s ease box-shadow;
+}
+#contact .contact-item:hover{
+    box-shadow: 0px 0px 5px 0 #0000002c;
 }
 #contact .icon{
     width: 70px;
