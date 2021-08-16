@@ -387,6 +387,10 @@ p{
     margin-top: 10px;
     margin-bottom: 10px;
 }
+#footer .social-icon{
+    display: flex;
+    margin-bottom: 30px;
+}
 /* End Footer */
 
 /* Keyframes */
