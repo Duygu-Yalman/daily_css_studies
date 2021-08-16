@@ -379,6 +379,14 @@ p{
     padding-top: 50px;
     padding-bottom: 10px;
 }
+#footer h2{
+    color: white;
+    font-weight: 500;
+    font-size: 1.8rem;
+    letter-spacing: .1rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 /* End Footer */
 
 /* Keyframes */
