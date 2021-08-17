@@ -494,6 +494,13 @@ p{
         width: 98%;
         border: 10px solid crimson;
     }
+    #about .col-right{
+        text-align: left;
+        padding: 30px;
+    }
+    #about .col-right h1{
+        text-align: left;
+    }
     /* End About */
 
 
