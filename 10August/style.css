@@ -439,6 +439,9 @@ p{
         font-size: 2.5rem;
         padding: 20px 60px;
     }
+    h1 .section-title{
+        font-size: 6rem;
+    }
 }
 
 /* End Media Query For Tablet */
