@@ -457,6 +457,21 @@ p{
     }
     /* End Services Section */
 
+    /* Project */
+    #projects .projects{
+        flex-direction: row;
+    }
+    #projects .project-item{
+        height: 400px;
+        margin: 0;
+        width: 100%;
+        border-radius: 0;
+    }
+    #projects .all-projects .project-img{
+        height: 100%;
+    }
+    /* End Project */
+
 
 }
 
