@@ -433,6 +433,7 @@ p{
 }
 /* End Keyframes */
 
+
 /* Media Query For Tablet */
 @media only secreen and (min-width: 768px){
     .cta{
@@ -442,6 +443,21 @@ p{
     h1 .section-title{
         font-size: 6rem;
     }
+
+    /* Hero */
+    #hero h1{
+        font-size: 7rem;
+    }
+    /* End Hero */
+
+    /* Services Section */
+    #services .service-bottom .service-item{
+        flex-basis: 45%;
+        margin: 2.5%;
+    }
+    /* End Services Section */
+
+
 }
 
 /* End Media Query For Tablet */
