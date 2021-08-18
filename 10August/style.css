@@ -518,6 +518,10 @@ p{
         padding: 20px;
         margin: 0;
     }
+    #contact .contact-item{
+        margin: 20px;
+        flex-direction: row;
+    }
     /* End Contact */
 
 
