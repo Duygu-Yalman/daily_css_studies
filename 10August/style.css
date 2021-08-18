@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+@import 'https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap';
 *{
     margin: 0;
     padding: 0;
@@ -68,6 +68,19 @@ p{
 .brand h1 span{
     color: crimson;
 }
+
+/* Header Section */
+#header{
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: auto;
+}
+/* End Header Section */
+
+
 /* Hero Section */
 #hero{
     background-image: url(img/background.jpg);
