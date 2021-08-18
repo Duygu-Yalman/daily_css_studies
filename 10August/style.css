@@ -522,6 +522,14 @@ p{
         margin: 20px;
         flex-direction: row;
     }
+    #contact .contact-item .icon{
+        height: 100px;
+        width: 100%;
+    }
+    #contact .contact-item .icon img{
+        object-fit: contain;
+    }
+ 
     /* End Contact */
 
 
