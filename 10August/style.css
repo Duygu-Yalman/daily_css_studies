@@ -697,6 +697,9 @@ p{
     #header .nav-list ul li{
         display: inline-block;
     }
+    #header .nav-list ul li a{
+        font-size: 1.8rem;
+    }
     #header .nav-list ul a:after{
         display: none;
     }
