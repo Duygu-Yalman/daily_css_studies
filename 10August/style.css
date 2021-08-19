@@ -132,6 +132,20 @@ p{
     transform: translate(-50%, -50%) scale(1);
     letter-spacing: initial;
 }
+#header .hamburger{
+    height: 60px;
+    width: 60px;
+    display: inline-block;
+    border: 3px solid white;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+    cursor: pointer;
+}
+
 /* End Header Section */
 
 
