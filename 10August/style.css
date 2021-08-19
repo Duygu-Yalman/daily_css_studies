@@ -136,6 +136,9 @@ p{
     transform: translate(-50%, -50%) scale(1);
     letter-spacing: initial;
 }
+#header .nav-list ul li:hover a{
+    color: crimson;
+}
 #header .hamburger{
     height: 60px;
     width: 60px;
@@ -680,6 +683,20 @@ p{
 
 /* Media Query For Desktop */
 @media only screen and (min-width:1200px){
+    /* Header */
+    #header .hamburger{
+        display: none;
+    }
+    #header .nav-list ul{
+        position: initial;
+        display: block;
+        height: auto;
+        width: fit-content;
+    }
+    #header .nav-list ul a:after{
+        display: none;
+    }
+    /* End Header */ 
     #services .service-bottom .service-item{
         flex-basis: 22%;
         margin: 1.5%;
