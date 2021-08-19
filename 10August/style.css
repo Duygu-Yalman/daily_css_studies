@@ -97,7 +97,7 @@ p{
     background-color: rgb(31, 30, 30);
     width: 100vw;
     height: 100vh;
-    left: 0;
+    left: 100%;
     top: 0;
     display: flex;
     flex-direction: column;
@@ -105,6 +105,10 @@ p{
     align-items: center;
     z-index: 1;
     overflow: hidden;
+    transition: .5s ease left;
+}
+#header .nav-list ul.active{
+    left: 0%;
 }
 #header .nav-list ul a{
     font-size: 2.5rem;
@@ -144,6 +148,17 @@ p{
     justify-content: center;
     z-index: 100;
     cursor: pointer;
+    transform: scale(.8);
+    margin-right: 20px;
+}
+#header .hamburger:after{
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: 3px solid white;
+    animation: hamburger_puls 1s ease infinite;
 }
 #header .hamburger .bar{
     height: 2px;
@@ -525,6 +540,16 @@ p{
 /* End Footer */
 
 /* Keyframes */
+@keyframes hamburger_puls{
+    0%{
+        opacity: 1;
+        transform: scale(1);
+    }
+    100%{
+        opacity: 0;
+        transform: scale(1.4);
+    }
+}
 @keyframes text_reveal_box{
     50% {
         width: 100%;
