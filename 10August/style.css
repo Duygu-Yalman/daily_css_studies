@@ -121,11 +121,14 @@ p{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%) scale(0);
     color: rgba(240, 248, 255, 0.021);
     font-size: 15rem;
     letter-spacing: 50px;
     z-index: -1;
+}
+#header .nav-list ul li:hover a::after{
+    transform: translate(-50%, -50%) scale(1);
 }
 /* End Header Section */
 
