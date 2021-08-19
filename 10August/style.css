@@ -117,7 +117,7 @@ p{
     display: block;
 }
 #header .nav-list ul a::after{
-    content: 'Text';
+    content: attr(data-after);
     position: absolute;
     top: 50%;
     left: 50%;
