@@ -692,6 +692,10 @@ p{
         display: block;
         height: auto;
         width: fit-content;
+        background-color: transparent;
+    }
+    #header .nav-list ul li{
+        display: inline-block;
     }
     #header .nav-list ul a:after{
         display: none;
