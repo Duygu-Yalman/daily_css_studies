@@ -30,7 +30,7 @@ p{
     margin-top: 5px;
     line-height: 2.5rem;
     font-weight: 300px;
-    letter-spacing: .05rem;
+    letter-spacing: 0.05rem;
 }
 .section-title{
     font-size: 4rem;
@@ -38,12 +38,13 @@ p{
     color: black;
     margin-bottom: 10px;
     text-transform: uppercase;
-    letter-spacing: .2rem;
+    letter-spacing: 0.2rem;
     text-align: center;
 }
 .section-title span{
     color: crimson;
 }
+
 .cta{
     display: inline-block;
     padding: 10px 30px;
@@ -52,7 +53,7 @@ p{
     border: 2px solid crimson;
     font-size: 2rem;
     text-transform: uppercase;
-    letter-spacing: .1rem;
+    letter-spacing: 0.1rem;
     margin-top: 30px;
     transition: .3s ease;
     transition-property: background-color, color;
@@ -107,7 +108,7 @@ p{
     align-items: center;
     z-index: 1;
     overflow: hidden;
-    transition: .5s ease left;
+    transition: 0.5s ease left;
 }
 #header .nav-list ul.active{
     left: 0%;
@@ -115,7 +116,7 @@ p{
 #header .nav-list ul a{
     font-size: 2.5rem;
     font-weight: 500;
-    letter-spacing: .2rem;
+    letter-spacing: 0.2rem;
     text-decoration: none;
     color: white;
     text-transform: uppercase;
@@ -132,7 +133,7 @@ p{
     font-size: 13rem;
     letter-spacing: 50px;
     z-index: -1;
-    transition: .3s ease letter-spacing;
+    transition: 0.3s ease letter-spacing;
 }
 #header .nav-list ul li:hover a::after{
     transform: translate(-50%, -50%) scale(1);
