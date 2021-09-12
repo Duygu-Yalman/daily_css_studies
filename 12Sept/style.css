@@ -13,6 +13,13 @@ body{
     border-radius: 40px;
     padding: 10px;
 }
+.search-box:hover > .search-txt{
+    width: 240px;
+    padding: 0 6px;
+}
+.search-box:hover > .search-btn{
+    background: white;
+}
 .search-btn{
     color: #e84118;
     float: right;
@@ -24,6 +31,7 @@ body{
     justify-content: center;
     align-items: center;
     text-decoration: none;
+    transition: 0.4s;
 }
 .search-txt{
     border: none;
