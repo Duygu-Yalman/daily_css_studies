@@ -12,3 +12,22 @@ body{
     min-height: 100vh;
     background: #3c2846;
 }
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 40px;
+}
+.card{
+    position: relative;
+    width: 320px;
+    height: 450px;
+    margin: 30px;
+    background: #287bff;
+    border-radius: 20px;
+    border-bottom-left-radius: 160px;
+    border-bottom-right-radius: 160px;
+    box-shadow: 0 15px 0 #fff;
+    inset: 0 -15px 0 rgba(255, 255, 255, 0.25), 0 45px 0 rgba(0, 0, 0, 0.15);
+}
