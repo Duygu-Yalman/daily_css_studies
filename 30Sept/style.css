@@ -44,3 +44,12 @@ body{
     pointer-events: none;
     filter: blur(5px);
 }
+.card:nth-child(1){
+    background: linear-gradient(to bottom, #f953c6, #b91d73);
+}
+.card:nth-child(2){
+    background: linear-gradient(to bottom, #f12711, #f5af19);
+}
+.card:nth-child(3){
+    background: linear-gradient(to bottom, #99f2c8, #1f4037);
+}
