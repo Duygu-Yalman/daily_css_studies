@@ -98,3 +98,10 @@ body{
     z-index: 10000;
     --ionicon-stroke-width: 24px;
 }
+.content{
+    position:absolute;
+    width: 100%;
+    padding: 30px;
+    padding-top: 140px;
+    text-align: center;
+}
