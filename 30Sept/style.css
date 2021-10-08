@@ -105,3 +105,12 @@ body{
     padding-top: 140px;
     text-align: center;
 }
+.content h2{
+    font-size: 1.75em;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.content p{
+    color: #fff;
+    line-height: 1.5em;
+}
