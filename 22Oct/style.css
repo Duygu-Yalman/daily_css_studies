@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color:rgb(230, 230, 189);
 }
 body{
     display: flex;
@@ -16,12 +17,24 @@ body{
     justify-content: center;
     align-items: center;
     width: 600px;
+    gap: 10px;
 }
 .container .card{
     position: relative;
     width: 300px;
     height: 300px;
+    overflow: hidden;
+    margin: 0 -75px;
+    /*clip-path: polygon(50% 0%, 0% 100%, 100% 100%);*/
+    clip-path: polygon(50% 100%, 100% 0, 0 0);
 }
+.container .card:nth-child(2){
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+img{
+    height: 100%;
+    width: 100%;
+ }
 .container .card img{
     transition: 0.5s;
 }
