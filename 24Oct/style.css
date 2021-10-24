@@ -88,3 +88,21 @@ section .container .user .formBx input[type="submit"]{
     letter-spacing: 1px;
     transition: 0.5s;
 }
+section .container .user .formBx .signup{
+    position: relative;
+    margin-top: 20px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: #555;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+section .container .user .formBx .signup a{
+    font-weight: 600;
+    text-decoration: none;
+    color: #577eff;
+}
+section .container .user .formBx input[type="submit"]:hover{
+    background-color: #fff;
+    color: #577eff;
+}
