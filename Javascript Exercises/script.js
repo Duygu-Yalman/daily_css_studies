@@ -65,7 +65,10 @@
 
 // console.log(course.length);
 
+
+
 //Demo : Operators
+
 //1-Can ve Adan'nın boy ve kg bilgilerini alın.
 //2-Alınan bilgilere göre kilo endekslerini hesaplayınız.
 // ** Formül: Kişinin kilosu/Boy uzunluğunun karesi
@@ -106,3 +109,25 @@ console.log("Ada Weak:"+AdaWeak);
 console.log("Ada Normal:"+AdaNormal);
 console.log("Ada Fat:"+AdaFat);
 console.log("Ada Obese:"+AdaObese);
+
+
+
+//Date Object
+
+let d = new Date();
+
+//set Methods
+d.setFullYear(2021);
+d.setMonth(11);
+
+//get Methods
+console.log(d.getDate());
+console.log(d.getDay());
+console.log(d.getMonth());
+console.log(d.getFullYear());
+console.log(d.getHours());
+console.log(d.getMinutes());
+console.log(d.getSeconds());
+
+console.log(d);
+console.log(typeof d);
