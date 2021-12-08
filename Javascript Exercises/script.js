@@ -115,10 +115,14 @@ console.log("Ada Obese:"+AdaObese);
 //Date Object
 
 let d = new Date();
+let birthday = new Date(1990,1,5);
 
 //set Methods
 d.setFullYear(2021);
-d.setMonth(11);
+d.setMonth(12);
+d.setDate(8);
+d.setHours(15);
+d.setMinutes(16);
 
 //get Methods
 console.log(d.getDate());
@@ -128,6 +132,10 @@ console.log(d.getFullYear());
 console.log(d.getHours());
 console.log(d.getMinutes());
 console.log(d.getSeconds());
+
+console.log(d.getFullYear()-birthday.getFullYear());
+console.log(d.getMonth()-birthday.getMonth());
+console.log(d.getDate()-birthday.getDate());
 
 console.log(d);
 console.log(typeof d);
